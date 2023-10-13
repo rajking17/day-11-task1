@@ -1,0 +1,56 @@
+.box-parent{
+    border: 1px solid #dbdbdb;
+    padding: 14px;
+    margin-bottom: 20px;
+}
+.box-parent h2{
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 10px;
+}
+.box-body{
+    display: flex;
+    align-items: flex-start;
+}
+.box-image {
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.box-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.box-content{
+    padding-left: 10px;
+}
+.box-content p{
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #203cc7;
+}
+.box-content h6{
+    font-size: 14px;
+}
+
+.main-title{
+    background: lightgrey;
+    padding: 10px 60px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+/* Responsive */
+
+@media only screen and (min-width: 992px){
+    .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
